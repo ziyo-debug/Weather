@@ -11,13 +11,13 @@ import Timezone from './pages/Timezone'
 const App = () => {
   return (
     <div>
+<BrowserRouter>
 <Navbar />
-
 <Routes>
   <Route path='/' element={<Home />}/>
-  <Route path='/timezone' element={<Timezone />}/>
+  <Route path='/timezones' element={<Timezone />}/>
 </Routes>
-
+</BrowserRouter>
     </div>
   )
 }
