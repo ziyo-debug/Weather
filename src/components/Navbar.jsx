@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className=' bg-cyan-500 h-[90px] flex justify-center items-center'>
         <ul className='flex gap-3 text-white text-3xl font-semibold'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/timezones">Timezones</Link></li>
+          <li><Link to="/weather">Weather</Link></li>
         </ul>
       </nav>
     </div>

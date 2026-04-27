@@ -5,19 +5,18 @@ import Navbar from './components/Navbar'
 import { BrowserRouter } from 'react-router-dom'
 import { Route,Routes } from 'react-router-dom'
 import axios from 'axios'
-import Timezone from './pages/Timezone'
 
 
 const App = () => {
   return (
     <div>
-<BrowserRouter>
 <Navbar />
+
 <Routes>
   <Route path='/' element={<Home />}/>
-  <Route path='/timezones' element={<Timezone />}/>
+  <Route path='/weather' element={<Weather />}/>
 </Routes>
-</BrowserRouter>
+
     </div>
   )
 }
